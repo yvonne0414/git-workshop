@@ -1,11 +1,11 @@
-##課程心得
+## 課程心得
 
 很喜歡小賴老師的互動式的上課方式！讓我們不是一昧接受資訊，而是利用提出問題使我們可以動腦思考，不只加深印象也更有利於我們內化課程內容。
 老師上課講了很多實務會碰到的東西，像是向他人詢問的方式、資料庫設計時需要注意的事項、提交訊息撰寫以及code style等問題，而且對我們提出的問題也都會花時間為我們詳細解釋，課程內容非常充實，如果不小心閃神就會錯過很多經驗分享，超級期待之後的課程！
 
-##課程筆記
+## 課程筆記
 
-####command
+#### command
 |檔案位置||指令參數||
 |-------|:------------:|-------|:------------:|
 |.|同一層|-a|全部|
@@ -24,15 +24,15 @@
 |rm|刪除|
 |clear|清除iterm上內容|
 
-###git-分散式版本控制
-####結構
+### git-分散式版本控制
+#### 結構
 1. 本地
     1. 工作區域（add to 暫存）
     1. 暫存區（commit to 儲存庫）
     1. 儲存庫（push to 遠端）
 1. 遠端
 
-####使用教學
+#### 使用教學
 環境設定
 ```bash
 #建立repo，使git可以監聽該資料夾
@@ -45,7 +45,7 @@ git config --global user.email = "$useremail"
 #確認設定狀態
 cat ~/.gitconfig #這是在全域的，局部檔案也可自行修改
 ```
-####工作區 git 操作
+#### 工作區 git 操作
 ```bash
 #把檔案從工作目錄加至暫存區
 git add $filename
@@ -72,7 +72,7 @@ $ git diff
 #可以同時加入這次的修改與訊息
 $ git commit -am "訊息"
 ```
-####分支
+#### 分支
 ```bash
 #檢視分支
 $ git branch
@@ -93,7 +93,7 @@ $ git merge feature-login
 $ git branch -d $branch-name
 ```
 
-###遠端Remote
+### 遠端Remote
 ```bash
 # 建好repo後連動
 git remote add origin https://github.com/yvonne0414/git-workshop.git
